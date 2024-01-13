@@ -283,16 +283,20 @@ section{
     color: #DB4444;
 }
 .new-arrival{
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+    gap: 10px;
 }
 
 .arrival-items1{
-    width: 415px ;
-    height: auto;
     background-color: #121212;
     position: relative;
     color: #fff;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrival-items1 h1{
@@ -301,12 +305,7 @@ section{
     left: 20px;
 
 }
-.arrival-items1 img{
-  margin: 0px 20px;
-  width: 430px;
-  height: 500px;
 
-}
 
 .arrival-items1 p{
     position: absolute;
@@ -321,25 +320,28 @@ section{
     text-decoration-line: underline;
 
 }
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
 .arrival-items2{
-    position: absolute;
-    right: 0;
-    top: 0;
     background-color: #0C0C0C;
     width: 700px;
     height: 250px;
     color: #fff;
     border-radius: 5px;
     margin-right: 2px;
+    position: relative;
 
 
 }
 .arrival-items2 img{
-    position: absolute;
-    right: 0;
-    top: 0;
     background-color: black;
     height: 250px;
+    position: absolute;
+    right: 0;
 
 }
 .arrival-items2 h1{
@@ -367,15 +369,12 @@ section{
 
 }
 .item3_item4{
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 700px;
     height: 250px;
     color: #fff;
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
+   
     
 }
 .item3{
@@ -421,7 +420,6 @@ section{
     flex-direction: column;
     position: relative;
     border-radius: 5px;
-
 }
 .item4 h1{
     position: absolute;
@@ -429,6 +427,7 @@ section{
     left: 10px;
 
 }
+
 .item4 p{
     position: absolute;
     bottom: 40px;
