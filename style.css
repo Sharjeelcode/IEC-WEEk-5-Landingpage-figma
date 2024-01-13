@@ -407,6 +407,7 @@ section{
     position: absolute;
     bottom: 15px;
     left: 10px;
+    text-decoration-line: underline;
 }
 
 
@@ -439,6 +440,7 @@ section{
     position: absolute;
     bottom: 15px;
     left: 10px;
+    text-decoration-line: underline;
 }
 .services{
     display: flex;
